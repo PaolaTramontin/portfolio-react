@@ -1,0 +1,398 @@
+.nav{
+    height:4vw;
+    background-color:rgb(54, 52, 52);
+}
+
+#linkContainer{
+    display:flex;
+    justify-content: center;
+   top:-100px;
+}
+
+.links{
+ color:white;
+ font-family: 'Alegreya Sans SC', sans-serif;
+ font-size:2rem;
+ height:100%;
+}
+
+.links:hover{
+    color: rgb(0, 119, 128);
+    background-color:transparent;
+    text-decoration: underline;
+}
+
+
+.li{
+    margin-top:-1.3vw;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:5%;
+    background-color:transparent;
+    color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#footerText{
+    font-size:1vw;
+    text-align: center;
+    margin-top:1.5vw;
+}
+
+
+
+.name{
+  padding-top:90px;
+  color:white;
+  font-size:10vw;
+  letter-spacing: 8px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  /* font-family: 'Julius Sans One', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Julius Sans One', sans-serif; */
+    /* font-family: 'Syne Mono', monospace; */
+}
+
+#welcome{
+  width:40%;
+  text-align:center;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin-left:30%;
+  margin-top:-5vw;
+  font-size:120%;
+
+}
+
+#selfie{
+        border-radius: 10%;
+        height:12vw;
+        opacity: 0.7;
+}
+
+#selfie:hover{
+  opacity:1;
+}
+
+.developer{
+    font-family: 'Julius Sans One', sans-serif;
+    padding-top:0px;
+    color:white;
+    font-size:2vw;
+}
+
+
+
+
+
+
+
+
+
+/* BACKGROUND IMG CODE */
+main{
+    margin-top:-50px;
+}
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  html,body{
+    height:100%;
+  }
+  .app{
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  height:100%;
+  width:100%;
+  }
+  #liAnimation{
+    display:block;
+    width:100%;
+    height:inherit;
+  }
+  #liAnimation{
+    list-style-type:none;
+  }
+  #li1{
+    position:absolute;
+    left:10%;
+    height:30px;
+    width:30px;
+    background:rgba(255,255,255,.2);
+  }
+  #li2
+  {
+    position:absolute;
+    left:30%;
+    height:45px;
+    width:45px;
+    background:rgba(255, 255, 255, 0.532);
+  }
+  #li3
+  {
+    position:absolute;
+    left:50%;
+   
+    height:70px;
+    width:70px;
+    background:rgba(255, 255, 255, 0.672);
+  }
+  #li4
+  {
+    position:absolute;
+    left:80%;
+  
+    height:20px;
+    width:20px;
+    background:rgba(255, 255, 255, 0.868);
+  }
+  /* to make the squares start lower change the time and the -2500 */
+  #li1{
+    animation:animate 9s linear 1s infinite;
+  }
+  
+  #li2{
+    animation:animate 7s linear 1s infinite;
+  }
+  #li3{
+    animation:animate 9s linear 1s infinite;
+  }
+  #li4{
+    animation:animate 11s linear 1s infinite;
+  }
+  @keyframes animate{
+    from{
+      transform: translateY(+2500%) rotate(180deg)
+    }
+    to{
+      transform: translateY(-50%)
+        rotate(360deg)
+    }
+  }
+
+
+
+
+  /* code for the glitch */
+  body {
+    background-color: #333;
+  }
+  
+  #container {
+    width: 50vw;
+    margin: 15vw auto;
+    margin-top:5vw;
+  }
+  
+  .glitch {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 8px;
+    font-family: 'Press Start 2P';
+    font-weight: 400;
+    /*Create overlap*/
+    
+    margin: 0;
+    line-height: 0;
+    /*Animation*/
+    
+    animation: glitch1 2.5s infinite;
+  }
+  
+  .glitch:nth-child(2) {
+    color: #67f3da;
+    animation: glitch2 2.5s infinite;
+  }
+  
+  .glitch:nth-child(3) {
+    color: #f16f6f;
+    animation: glitch3 2.5s infinite;
+  }
+  /*Keyframes*/
+  
+  @keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(-2px, -3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(-5px, -2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(-5px, -1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(-2px, -6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+  
+  @keyframes glitch3 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(2px, 3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(5px, 2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(5px, 1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(2px, 6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+  
+  
+
+
+
+
+
+
