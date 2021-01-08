@@ -1,19 +1,31 @@
+* {
+  font-family: 'Bitter', serif;
+}
+
+
+
+
 .nav{
     height:4vw;
     background-color:rgb(54, 52, 52);
+    z-index: 2;
 }
 
 #linkContainer{
     display:flex;
     justify-content: center;
    top:-100px;
+   z-index: 1;
 }
 
 .links{
  color:white;
- font-family: 'Alegreya Sans SC', sans-serif;
- font-size:2rem;
+ /* font-family: 'Alegreya Sans SC', sans-serif; */
+ font-size:2vw;
  height:100%;
+ z-index: 1;
+ font-family: 'Bitter', serif;
+ 
 }
 
 .links:hover{
@@ -50,27 +62,26 @@ footer{
 
 
 .name{
+  font-weight:300;
   padding-top:90px;
   color:white;
-  font-size:10vw;
+  font-size:5vw;
   letter-spacing: 8px;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  /* font-family: 'Julius Sans One', sans-serif; */
-  /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Orbitron', sans-serif; */
-    /* font-family: 'Julius Sans One', sans-serif; */
-    /* font-family: 'Syne Mono', monospace; */
+  font-family: 'Bitter', serif;
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
+ 
 }
 
 #welcome{
-  width:40%;
+  width:50%;
   text-align:center;
   color:white;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   text-align: left;
   margin-left:30%;
   margin-top:-5vw;
-  font-size:120%;
+  font-size:1.5vw;
+  font-family: 'Bitter', serif;
 
 }
 
@@ -78,6 +89,7 @@ footer{
         border-radius: 10%;
         height:12vw;
         opacity: 0.7;
+        
 }
 
 #selfie:hover{
@@ -85,7 +97,7 @@ footer{
 }
 
 .developer{
-    font-family: 'Julius Sans One', sans-serif;
+    /* font-family: 'Julius Sans One', sans-serif; */
     padding-top:0px;
     color:white;
     font-size:2vw;
@@ -99,8 +111,8 @@ footer{
 
 
 
-/* BACKGROUND IMG CODE */
-main{
+/* BACKGROUND IMG GRADIENT CODE */
+ main{
     margin-top:-50px;
 }
 
@@ -111,14 +123,19 @@ main{
   }
   html,body{
     height:100%;
-  }
-  .app{
-  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  } 
+   /* .app{
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #2b5b70);  
+  background: linear-gradient(to left, #49798d, #203A43, #0F2027);
   height:100%;
   width:100%;
-  }
-  #liAnimation{
+  } */
+
+
+
+
+  /* CODE FOR THE SQUARES BELOW */
+  /* #liAnimation{
     display:block;
     width:100%;
     height:inherit;
@@ -158,9 +175,9 @@ main{
     height:20px;
     width:20px;
     background:rgba(255, 255, 255, 0.868);
-  }
+  } */
   /* to make the squares start lower change the time and the -2500 */
-  #li1{
+  /* #li1{
     animation:animate 9s linear 1s infinite;
   }
   
@@ -180,8 +197,8 @@ main{
     to{
       transform: translateY(-50%)
         rotate(360deg)
-    }
-  }
+    } */
+  /* }  */
 
 
 
@@ -200,12 +217,13 @@ main{
   .glitch {
     text-align: center;
     color: #fff;
-    font-size: 2em;
+    font-size: 3vw;
     letter-spacing: 8px;
     font-family: 'Press Start 2P';
     font-weight: 400;
+    /* border:2px solid red; */
+    width:100%;
     /*Create overlap*/
-    
     margin: 0;
     line-height: 0;
     /*Animation*/
@@ -394,5 +412,82 @@ main{
 
 
 
+  @media screen and (min-width: 100px) and (max-width: 480px) {
+
+
+
+    .glitch {
+      text-align: center;
+      color: #fff;
+      font-size: 3vw;
+      letter-spacing: 8px;
+      font-family: 'Press Start 2P';
+      font-weight: 400;
+      /* border:2px solid red; */
+      width:80vw;
+      /*Create overlap*/
+      margin: 0;
+      line-height: 0;
+      /*Animation*/
+      margin-left:-25%;
+      animation: glitch1 2.5s infinite;
+    }
+
+
+    #projects{
+      margin-top:-1vw;
+    }
+
+
+
+    #myWork{
+      margin-top:-15vw;
+    }
+
+    #timelineDiv{
+
+      margin-top:-20vw;
+    }
+
+
+    #welcomeP{
+      font-size:10w;
+    }
+
+    .sc-dlfnbm{
+      width:100%!important;
+      /* border:2px solid red; */
+    }
+
+.sc-crrsfI{
+  width:40%!important;
+  height:30%;
+  font-size: 2vw;
+}
+
+/* code to move the timeline to center*/
+.sc-hKgILt{
+  margin-left:40%;
+}
+
+
+/* code ball color inside skills part */
+.bxAjMs.bxAjMs{
+  border:2px solid teal! important;
+}
+
+
+/* code for the line skills part */
+.kKSsod::after {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color:purple !important;
+  color:rgb(4, 87, 55);
+  content: '';
+}
+
+  }
 
 

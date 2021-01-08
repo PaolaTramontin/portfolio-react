@@ -1,24 +1,47 @@
 import React from "react";
 import "../css/components/Home.css";
+import Particles from "react-particles-js"
+import {ParticleOptions} from "./ParticleOptions"
+import Timeline from "./Timeline"
+import Container from "react-bootstrap/Container";
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
+import { Parallax } from "react-parallax";
+
+
+
+
+
 
 const Home = () => {
 
 
 
+  
+
+
   return (
     <div>
+      <Parallax>
       {/* code below is for the background animation */}
       <main class="app">
+        
         <div class="boxes">
-          <ul id="liAnimation">
+        {/* <Particles
+        className="particles particles-box"
+        params={ParticleOptions}
+      /> */}
+
+
+          {/* <ul id="liAnimation">
             <li id="li1"></li>
             <li id="li2"></li>
             <li id="li3"></li>
             <li id="li4"></li>
-          </ul>
+          </ul> */}
 
-          <h1 class="name">Paola Tramontin</h1>
-          {/* <img id="selfie" src="https://i.postimg.cc/269qsnHT/avatar.jpg" /> */}
+          <h1 className="name">Paola Tramontin</h1>
+          <img id="selfie" src="https://i.postimg.cc/269qsnHT/avatar.jpg" />
           {/* <h3 class="developer">Full Stack Developer</h3> */}
           <div id="container">
             <h1 class="glitch">Full Stack Developer</h1>
@@ -28,7 +51,7 @@ const Home = () => {
 
           <div id="welcome">
             <p> Welcome to my Portfolio</p> <br />
-            <p>
+            <p id="welcomeP">
               {" "}
               I am a software developer with a strong real estate sales
               background. I leverage my 7 years of product knowledge, team
@@ -108,7 +131,24 @@ const Home = () => {
           <br></br>
           <br></br>
           <br></br>
+          <div id="timelineDiv">
+          <h1 id="skills"> skills </h1>
+          <Container className="container-box rounded">
+       <Slide bottom duration = {500}>
+            
+       <hr />
+          <Timeline />
+
+       </Slide>
+         
+        
+      </Container>
+      </div> 
+
       </main>
+
+
+      </Parallax>
     </div>
   );
 };

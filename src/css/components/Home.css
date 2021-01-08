@@ -1,10 +1,12 @@
 #myWork{
-  font-family: 'Alegreya Sans SC', sans-serif;
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
   color:white;
   border-bottom: 2px solid currentColor;
   background-color:transparent;
   margin-left:40%;
   margin-right:40%;
+  font-size:3vw;
+  font-family: 'Bitter', serif;
 }
 
 #got{
@@ -48,8 +50,10 @@
   left: 22%;
   transform: translate(-50%, -50%);
   font-size:1.8vw;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
   width:300%;
+  font-family: 'Bitter', serif;
+font-weight: 500;
 }
         
 
@@ -82,7 +86,7 @@
     left: 20%;
     transform: translate(-50%, -50%);
     font-size:1.8vw;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
     width:300%;
   }
 
@@ -93,7 +97,9 @@
     left: 20%;
     transform: translate(-50%, -50%);
     font-size:1.8vw;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Bitter', serif;
+
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
     width:300%;
   }
 
@@ -111,13 +117,16 @@
     opacity:.5;
     font-size:2vw;
   }
+
   #projects{
     display:flex;
+    width:80%;
     flex-wrap:wrap;
     /* flex-flow: column wrap; */
     justify-content: space-evenly;
-    margin-left:10%;
+    margin-left:12%;
     margin-right:10%;
+    /* border:2px solid red; */
   }
 
 
@@ -140,8 +149,10 @@
   left: 20%;
   transform: translate(-50%, -50%);
   font-size:1.8vw;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
   width:300%;
+  font-family: 'Bitter', serif;
+
 }
 
 
@@ -161,12 +172,13 @@
 #burgerStack{
   height:15vw;
   width:13vw;
+  opacity:.5;
   border-radius: 50%;
 }
 
 #burgerStack:hover{
 border-radius: 50%;
-opacity:.5;
+opacity:.2;
 font-size:2vw;
 }
 
@@ -177,8 +189,10 @@ top: 52%;
 left: 20%;
 transform: translate(-50%, -50%);
 font-size:1.8vw;
-font-family: 'Alegreya Sans SC', sans-serif;
+/* font-family: 'Alegreya Sans SC', sans-serif; */
 width:300%;
+font-family: 'Bitter', serif;
+
 }
 
 
@@ -190,4 +204,57 @@ height:19vw;
 width:35%;
 /* display:flex;
 flex-direction: row; */
+}
+
+
+
+.particles-box {
+  position: absolute;
+  margin-top:50px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+
+
+
+
+#skills{
+  color:white;
+  border-bottom: 2px solid currentColor;
+  background-color:transparent;
+  margin-left:40%;
+  margin-right:40%;
+  font-family: 'Bitter', serif;
+  font-size:3vw;
+
+}
+
+
+
+
+
+/* this is the color of the line in the skills card */
+.kKSsod::after {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color:purple !important;
+  color:rgb(4, 87, 55);
+  content: '';
+}
+
+
+/* this is the color of the ball on the skill card */
+.bxAjMs.bxAjMs{
+  border:4px solid teal! important;
+}
+
+
+/* this is the size of the skills card */
+.sc-crrsfI{
+  width:50%!important;
 }
