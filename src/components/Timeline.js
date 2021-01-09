@@ -14,35 +14,86 @@ const TimeLine = () => {
   return (
     <Timeline >
       <Events>
-        <TextEvent  text=" *JavaScript*" />
-        <TextEvent text=" *React*" />
-        <TextEvent text=" *Node*" />
-        <TextEvent text=" *Python*" />
-        <TextEvent text=" *Mongoose*" />
-        <TextEvent text=" *SQL*" />
-        <TextEvent text=" *HTML*" />
-        <TextEvent  text=" *CSS*" />
-        <TextEvent  text=" *MongoDB*" />
-        <TextEvent text=" *Express*" />
-        <TextEvent  text=" *Sequelize*" />
-        <TextEvent text=" *Postman*" />
-        {/* <TextEvent date="1/1/19" text=" *Postman*" /> */}
+      <ImageEvent
+          text="React"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png"
+          alt="React">
+        </ImageEvent> 
+
+        <ImageEvent
+          text="Node"
+          src="https://www.maxpixels.net/static/photo/1x/Nodejs-Node-Js-Source-Code-Logo-Javascript-736399.png"
+          alt="Node">
+        </ImageEvent> 
+        <ImageEvent
+          text="Python"
+          src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png"
+          alt="Python">
+        </ImageEvent> 
+        
+        <ImageEvent
+          text="Mongoose"
+          src="https://cms-assets.tutsplus.com/uploads/users/34/syllabuses/1228/preview_image/mongoose.jpg"
+          alt="Mongoose">
+        </ImageEvent> 
+       
+
+        <ImageEvent
+          text="MongoDB"
+          src="https://miro.medium.com/max/780/1*dqiYC6CSouYCwg3ESYsP2w.png"
+          alt="MongoDB">
+        </ImageEvent> 
+
+       
+        <ImageEvent
+          text="PostgreSQL"
+          src="https://zdnet2.cbsistatic.com/hub/i/r/2018/04/19/092cbf81-acac-4f3a-91a1-5a26abc1721f/thumbnail/770x578/5d78c50199e6a9242367b37892be8057/postgresql-logo.png"
+          alt="PostgresSQL">
+        </ImageEvent> 
+
+        <ImageEvent
+          text="CSS"
+          src="https://www.pngitem.com/pimgs/m/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png"
+          alt="CSS">
+        </ImageEvent> 
+
+        <ImageEvent
+          text="Expresss"
+          src="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png"
+          alt="Express">
+        </ImageEvent> 
+
+        <ImageEvent
+          text="Sequelize"
+          src="https://cdn.iconscout.com/icon/free/png-512/sequelize-2-1175003.png"
+          alt="Sequelize">
+        </ImageEvent> 
+
+        <ImageEvent
+          text="Postman"
+          src="https://user-images.githubusercontent.com/2676579/34940598-17cc20f0-f9be-11e7-8c6d-f0190d502d64.png"
+          alt="Postman"
+        >
+        </ImageEvent> 
+
+
+        <ImageEvent
+          text="JavaScript"
+          src="https://cdn.freebiesupply.com/logos/large/2x/logo-javascript-logo-png-transparent.png"
+          alt="JavaScript"
+        >
+        </ImageEvent> 
 
         
         
-        {/* <ImageEvent
-          date="4/13/19"
-          text="You can embed images..."
-          src="https://res.cloudinary.com/dovoq8jou/image/upload/v1564772194/jellyfish.jpg"
-          alt="jellyfish swimming"
-          credit="Photo by [@tavi004](https://unsplash.com/@tavi004)"
+        <ImageEvent
+          text="HTML"
+          src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
+          alt="HTML"
         >
-          <div>
-            <UrlButton href="https://unsplash.com/search/photos/undersea">
-              View more undersea photos
-            </UrlButton>
-          </div>
-        </ImageEvent> */}
+        </ImageEvent> 
+
+
  
         {/* <YouTubeEvent
           date="6/18/19"

@@ -33,16 +33,10 @@ const Home = () => {
       /> */}
 
 
-          {/* <ul id="liAnimation">
-            <li id="li1"></li>
-            <li id="li2"></li>
-            <li id="li3"></li>
-            <li id="li4"></li>
-          </ul> */}
-
           <h1 className="name">Paola Tramontin</h1>
-          <img id="selfie" src="https://i.postimg.cc/269qsnHT/avatar.jpg" />
-          {/* <h3 class="developer">Full Stack Developer</h3> */}
+          {/* <img id="selfie" src="https://i.postimg.cc/269qsnHT/avatar.jpg" /> */}
+
+          <img id="selfie" src =" https://i.postimg.cc/KzWtNr95/Paola-Headshot2.png" />
           <div id="container">
             <h1 class="glitch">Full Stack Developer</h1>
             <h1 class="glitch">Full Stack Developer</h1>
