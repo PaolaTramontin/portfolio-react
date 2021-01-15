@@ -407,6 +407,9 @@ footer{
 
 
 
+  
+
+/* mobile friendly code below */
 
   @media screen and (min-width: 100px) and (max-width: 480px) {
 
@@ -441,10 +444,12 @@ footer{
     }
 
     #timelineDiv{
-
       margin-top:-20vw;
     }
 
+    /* .container-box{
+      border:2px solid red;
+    } */
 
     #welcomeP{
       font-size:10w;
@@ -487,11 +492,19 @@ footer{
   content: '';
 }
 
+#selfie{
+   border-radius: 50%; 
+  height:18vh;
+  width:26vw;
+  border:2px solid teal;
 
+}
 
 .sc-hBEYos{
   padding-bottom: -10vw;
 }
+
+
   }
 
 

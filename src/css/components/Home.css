@@ -49,7 +49,7 @@
   top: 70%;
   left: 22%;
   transform: translate(-50%, -50%);
-  font-size:1.8vw;
+  font-size:1.4vw;
   /* font-family: 'Alegreya Sans SC', sans-serif; */
   width:300%;
   font-family: 'Bitter', serif;
@@ -85,7 +85,7 @@ font-weight: 500;
     top: 52%;
     left: 20%;
     transform: translate(-50%, -50%);
-    font-size:1.8vw;
+    font-size:1.4vw;
     /* font-family: 'Alegreya Sans SC', sans-serif; */
     width:300%;
   }
@@ -96,7 +96,7 @@ font-weight: 500;
     top: 52%;
     left: 20%;
     transform: translate(-50%, -50%);
-    font-size:1.8vw;
+    font-size:1.4vw;
     font-family: 'Bitter', serif;
 
     /* font-family: 'Alegreya Sans SC', sans-serif; */
@@ -148,7 +148,7 @@ font-weight: 500;
   top: 52%;
   left: 20%;
   transform: translate(-50%, -50%);
-  font-size:1.8vw;
+  font-size:1.4vw;
   /* font-family: 'Alegreya Sans SC', sans-serif; */
   width:300%;
   font-family: 'Bitter', serif;
@@ -188,7 +188,7 @@ position: absolute;
 top: 52%;
 left: 20%;
 transform: translate(-50%, -50%);
-font-size:1.8vw;
+font-size:1.4vw;
 /* font-family: 'Alegreya Sans SC', sans-serif; */
 width:300%;
 font-family: 'Bitter', serif;
@@ -219,7 +219,7 @@ flex-direction: row; */
 }
 
 
-
+/* CODE FOR SKILLS BELOW */
 
 #skills{
   color:white;
@@ -229,11 +229,7 @@ flex-direction: row; */
   margin-right:40%;
   font-family: 'Bitter', serif;
   font-size:3vw;
-
 }
-
-
-
 
 
 /* this is the color of the line in the skills card */
@@ -248,21 +244,29 @@ flex-direction: row; */
 }
 
 
+/* THIS IS THE DIV FOR THE SKILL CARDS */
+.sc-dlfnbm{
+  height:35vw;
+}
+
 /* this is the color of the ball on the skill card */
 .bxAjMs.bxAjMs{
   border:4px solid teal! important;
 }
 
 /* this is the size of the skills card */
- /* .sc-crrsfI{
+  /* .sc-crrsfI{
   width:50%!important;
-  display:flex !important;
+  } */
+  /* display:flex !important;
   flex-direction: center!important;
   height:3vw;
   text-align: center!important;
-}  */
+}  */ 
 
-
+.flvfWh.flvfWh{
+  object-fit: contain;
+}
 
 
 
@@ -275,7 +279,14 @@ flex-direction: row; */
 
 /* DIV FOR IMAGES INSIDE SKILLS DIV  */
 .sc-crrsfI{
-  width:8vw !important;
+  width:10vw !important;
   height: 18vh;
   border:3px solid teal;
+}
+
+
+
+#timelineDiv{
+  margin-top:-5vw;
+  height:50%vh;
 }

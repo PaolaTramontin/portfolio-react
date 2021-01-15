@@ -27,7 +27,7 @@ const TimeLine = () => {
         </ImageEvent> 
         <ImageEvent
           text="Python"
-          src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png"
+          src="https://img.wonderhowto.com/img/75/78/63568875540985/0/python-credential-sniffer.1280x600.jpg"
           alt="Python">
         </ImageEvent> 
         
