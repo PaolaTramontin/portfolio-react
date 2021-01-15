@@ -44,17 +44,17 @@
   font-size:2vw;
 }
   
-/* .centered {
+ .centered {
   position: absolute;
-  top: 70%;
+  /* top: 70%; */
   left: 22%;
   transform: translate(-50%, -50%);
   font-size:1.4vw;
   /* font-family: 'Alegreya Sans SC', sans-serif; */
-  /* width:300%;
+   width:300%;
   font-family: 'Bitter', serif;
 font-weight: 500;
-} */ */
+} 
         
 
   #workGame2{
@@ -80,14 +80,14 @@ font-weight: 500;
 
 
   
-  /* .centered2 {
+  .centered2 {
     position: absolute;
-    top: 52%;
+    /* top: 52%; */
     left: 20%;
     transform: translate(-50%, -50%);
     font-size:1.4vw;
     width:300%;
-  } */
+  }
 
   .centered2{
     color:white;
@@ -96,20 +96,20 @@ font-weight: 500;
 
 
   .centered3 {
-    /* position: absolute;
-    top: 52%;
+    position: absolute;
+    /* top: 52%; */
     left: 20%;
     transform: translate(-50%, -50%);
     font-size:1.4vw;
     font-family: 'Bitter', serif;
-    width:300%; */
+    width:300%;
     color:white;
   }
 
 
   #clean{
-      height:13vw;
-      width:11vw;
+    height:13vw;
+    width:11vw;
       border-radius: 50%;
   }
 
@@ -147,13 +147,13 @@ font-weight: 500;
 
 
 .centered4 {
-  /* position: absolute;
-  top: 52%;
+  position: absolute;
+  /* top: 52%; */
   left: 20%;
   transform: translate(-50%, -50%);
   font-size:1.4vw;
   width:300%;
-  font-family: 'Bitter', serif; */
+  font-family: 'Bitter', serif;
   color:white;
 }
 
@@ -173,7 +173,7 @@ font-weight: 500;
 
 #burgerStack{
   height:13vw;
-  width:12vw;
+  width:11vw;
   border-radius: 50%;
 }
 
@@ -185,13 +185,13 @@ font-size:2vw;
 
 
 .centered5 {
-/* position: absolute;
-top: 52%;
+position: absolute;
+/* top: 52%; */
 left: 20%;
 transform: translate(-50%, -50%);
 font-size:1.4vw;
 width:300%;
-font-family: 'Bitter', serif; */
+font-family: 'Bitter', serif;
 color:white;
 }
 
@@ -291,3 +291,6 @@ flex-direction: row; */
   margin-top:-5vw;
   height:50%vh;
 }
+
+
+
