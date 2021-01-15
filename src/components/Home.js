@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
+import Contact from "./Contact.js"
 
 
 
@@ -27,10 +28,10 @@ const Home = () => {
       <main class="app">
         
         <div class="boxes">
-        <Particles
+        {/* <Particles
         className="particles particles-box"
         params={ParticleOptions}
-      />
+      /> */}
 
 
           <h1 className="name">Paola Tramontin</h1>
@@ -144,6 +145,8 @@ const Home = () => {
 
 
       </Parallax>
+
+      <Contact />
     </div>
   );
 };

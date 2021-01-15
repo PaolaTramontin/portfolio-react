@@ -416,7 +416,10 @@ footer{
 
   @media screen and (min-width: 100px) and (max-width: 480px) {
 
-
+.links{
+  margin-top:-2vw;
+  font-size: 2vh;
+}
 
     .glitch {
       text-align: center;
@@ -447,7 +450,7 @@ footer{
     }
 
     #timelineDiv{
-      margin-top:-20vw;
+      margin-top:-25vw;
     }
 
     /* .container-box{
