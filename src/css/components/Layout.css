@@ -433,6 +433,17 @@ footer{
 
   @media screen and (min-width: 100px) and (max-width: 480px) {
 
+
+    .name{
+      font-weight:100; 
+      color:white;
+      font-size:8vw;
+      letter-spacing: 8px;
+      margin-top:-10px;
+    } 
+
+
+
 .links{
   margin-top:-2vw;
   font-size: 2vh;
@@ -536,6 +547,126 @@ footer{
 .sc-hBEYos{
   padding-bottom: -10vw;
 }
+
+
+
+
+
+
+
+/* CODE FOR CONTACT CARD */
+
+.contact-card {
+  width: 80%; 
+margin: 0 auto;
+
+}
+
+
+#contactDiv{
+  /* border:2px solid red; */
+  margin-top:10vh;
+  height:90vh;
+  
+  }
+
+
+
+  #contactHeader{
+    color:white;
+    border-bottom: 2px solid currentColor;
+    background-color:transparent;
+    margin-left:40%;
+    margin-right:40%;
+    font-family: 'Bitter', serif;
+    font-size:3vw;
+    margin-bottom: 1vh;
+  }
+  
+.contact-card__header {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  border-bottom:2px solid teal;
+}
+.contact-card__header > div {
+  display: inline-block;
+}
+.contact-card__header__avt {
+  width: 80px;
+  height: 30px;
+  /* margin: 20px; */
+  border: #f1f1f1 1px solid;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+.contact-card__header__avt > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.contact-card__header__name {
+ margin-top:-90px;
+ margin-left:30px;
+}
+
+
+
+#devdev{
+  margin-left:80px;
+
+}
+
+
+
+#iconLogos{
+  font-size:5vw;
+  margin-left: 10%;
+  }
+  
+
+  #iconLogos2{
+    font-size:5vw;
+    margin-left: 10%;
+    /* border:2px solid red; */
+    }
+
+
+    #iconLogos3{
+      font-size:5.9vw;
+      margin-left:11%;
+      }
+
+
+
+
+
+      #iconText{
+        margin-top:.5%;
+      margin-left:20%;
+      position: absolute;
+      
+      }
+      
+      
+      #iconText3{
+        margin-top:.9%;
+      margin-left:20%;
+      position: absolute;
+      
+      }
+
+
 
 
   }

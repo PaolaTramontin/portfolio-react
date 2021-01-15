@@ -27,12 +27,13 @@ const Contact = () => {
         <div class="contact-card__header">
             <div class="contact-card__header__avt">
                 <img id="avatar" src="https://i.postimg.cc/269qsnHT/avatar.jpg" alt="" />
+
             </div>
             <div class="contact-card__header__name">
                 <div>
-                    <h2 id="paola">Paola Tramontin</h2>
+                    <h2 id="paolaContact">Paola Tramontin</h2>
                     <div class="contact-card__header__tags">
-                        <span class="contact-card__header__tag-family">Full Stack Developer</span>
+                        <span id="devdev" class="contact-card__header__tag-family">Full Stack Developer</span>
                         {/* <span class="contact-card__header__tag-co-worker">Coworkers</span><span class="contact-card__header__tag-friends">Friends</span> */}
                     </div>
                 </div>
