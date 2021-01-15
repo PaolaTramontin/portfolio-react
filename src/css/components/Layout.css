@@ -74,15 +74,32 @@ footer{
 }
 
 #welcome{
-  width:50%;
+  width:70%;
+
   text-align:center;
   color:white;
   /* font-family: 'Raleway', sans-serif; */
   text-align: left;
-  margin-left:30%;
+  margin-left:15%;
   margin-top:-5vw;
   font-size:1.5vw;
   font-family: 'Bitter', serif;
+/* border:1px solid red; */
+}
+
+
+
+
+#welcomeP{
+  font-size:2vw;
+  /* border:1px solid red; */
+  /* width:80vw; */
+  /* margin-left:-20vw; */
+}
+
+#welcomeLineOne{
+  font-size:2.5vw;
+  /* margin-left:-20vw; */
 
 }
 
@@ -458,7 +475,16 @@ footer{
     } */
 
     #welcomeP{
-      font-size:10w;
+      font-size:3vw;
+      /* border:1px solid red; */
+      width:80vw;
+      margin-left:-20vw;
+    }
+
+    #welcomeLineOne{
+      font-size:4vw;
+      margin-left:-20vw;
+
     }
 
     .sc-dlfnbm{

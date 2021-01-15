@@ -36,7 +36,7 @@ const Home = () => {
             </div>
 
             <div id="welcome">
-              <p> Welcome to my Portfolio</p> <br />
+              <p id="welcomeLineOne"> Welcome to my Portfolio</p> <br />
               <p id="welcomeP">
                 {" "}
                 I am a software developer with a strong real estate sales
