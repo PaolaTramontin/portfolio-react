@@ -152,8 +152,13 @@ const Home = () => {
           </div>
         </main>
       </Parallax>
+    <div id="contactDiv">
+    <h1 id="contactHeader"> Contact </h1>
+
 
       <Contact />
+
+    </div>
     </div>
   );
 };

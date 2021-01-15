@@ -23,7 +23,7 @@ const Layout = (props) => {
               <a className= "links" href="#timelineDiv">Skills</a>
             </li>
             <li class="li">
-              <a className= "links" href="">Contact</a>
+              <a className= "links" href="#bigContactDiv">Contact</a>
             </li>
           </ul>
         </div>
