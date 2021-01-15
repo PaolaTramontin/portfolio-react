@@ -27,10 +27,10 @@ const Home = () => {
       <main class="app">
         
         <div class="boxes">
-        {/* <Particles
+        <Particles
         className="particles particles-box"
         params={ParticleOptions}
-      /> */}
+      />
 
 
           <h1 className="name">Paola Tramontin</h1>
@@ -48,8 +48,9 @@ const Home = () => {
             <p id="welcomeP">
               {" "}
               I am a software developer with a strong real estate sales
-              background. I leverage my 7 years of product knowledge, team
-              collaboration, and business development experience. As a developer
+              background. I leverage my 7 years of product knowledge, <b> team
+              collaboration</b>
+              , and <u>business development experience</u>. As a developer
               fluent in multiple frameworks and languages, I now have the
               programming skills to adapt to both sides of the business. My
               engineering certification along with my determination has led me
@@ -223,7 +224,7 @@ export default Home;
 
 
 
-// export default Home;
+//  export default Home;
 
 
 
