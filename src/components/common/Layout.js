@@ -14,10 +14,10 @@ const Layout = (props) => {
           </a> */}
           <ul>
             <li class="li">
-              <a className= "links" href="https://docs.google.com/document/d/1z5GEQYJHYzmOYdPIT0Dx0D38fjJHYWkgFu1MkKhrtzo/edit?usp=sharing">Resume</a>
+              <a target="_blank" className= "links" href="https://docs.google.com/document/d/1z5GEQYJHYzmOYdPIT0Dx0D38fjJHYWkgFu1MkKhrtzo/edit?usp=sharing">Resume</a>
             </li>
             <li class="li">
-              <a className="links" href="#myWork">Projects</a>
+              <a className="links" href="#myWork">Portfolio</a>
             </li>
             <li class="li">
               <a className= "links" href="#timelineDiv">Skills</a>

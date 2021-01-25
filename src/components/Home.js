@@ -94,7 +94,7 @@ const Home = () => {
 
               <div id="workGame3">
                 <a
-                  href="https://paolatramontin.github.io/RaimundasCleaning/#global"
+                  href="https://RaimundasCleaning.surge.sh"
                   target="_blank"
                 >
                   <img
