@@ -1,7 +1,7 @@
 export const ParticleOptions = {
     particles: {
       number: {
-        value: 80,
+        value: 100,
         density: {
           enable: true,
           value_area: 2000,
@@ -26,7 +26,7 @@ export const ParticleOptions = {
         },
       },
       opacity: {
-        value: 0.5,
+        value: 0.7,
         random: false,
         anim: {
           enable: false,

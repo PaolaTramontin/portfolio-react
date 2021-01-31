@@ -60,49 +60,54 @@ const Home = () => {
 
             <h1 id="myWork"> Portfolio </h1>
             <div id="projects">
-              <div id="workGame">
+              <div id="gotDiv">
                 <a
                   href="https://paolatramontin.github.io/project1/"
                   target="_blank"
                 >
                   <img
                     id="got"
-                    src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/The_Night_King_at_Hardhome.jpg/220px-The_Night_King_at_Hardhome.jpg"
+                    // src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/The_Night_King_at_Hardhome.jpg/220px-The_Night_King_at_Hardhome.jpg"
+                    // src="https://i.pinimg.com/originals/38/2a/92/382a92ae2d8c71a35ec352308fd09100.gif"
+                    // src="https://i.pinimg.com/originals/07/dc/7d/07dc7d4400488826316a54c0b2e9b8df.gif"
+                    src="https://s3.us-east-2.amazonaws.com/uptrend/posts/1583261498-74840.gif"
                   />
                 </a>
-                <div class="centered">
+                <div id="gotText">
                   {" "}
                   <b> Memory Game </b>
                 </div>
               </div>
 
-              <div id="workGame2">
+              <div id="dogDiv">
                 <a
                   href="https://ultimuttadoption.herokuapp.com/"
                   target="_blank"
                 >
                   <img
                     id="dog"
-                    src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHw%3D&w=1000&q=80"
+                    // src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHw%3D&w=1000&q=80"
+                    src="https://i.gifer.com/XwI6.gif"
                   />
                 </a>
-                <div class="centered2">
+                <div id="dogText">
                   {" "}
                   <b> The UltiMutt </b>
                 </div>
               </div>
 
-              <div id="workGame3">
+              <div id="cleaningDiv">
                 <a
                   href="https://RaimundasCleaning.surge.sh"
                   target="_blank"
                 >
                   <img
                     id="clean"
-                    src="https://previews.123rf.com/images/davizro/davizro1604/davizro160400027/55452948-professional-cleaning-equipment-on-white-table-overview-vertical-composition.jpg"
+                    // src="https://previews.123rf.com/images/davizro/davizro1604/davizro160400027/55452948-professional-cleaning-equipment-on-white-table-overview-vertical-composition.jpg"
+                    src="https://media0.giphy.com/media/2wZvJf3wvGl8PpAzTS/source.gif"
                   />
                 </a>
-                <div class="centered3">
+                <div class="cleaningText">
                   {" "}
                   <b> Cleaning Services </b>
                 </div>
@@ -112,7 +117,8 @@ const Home = () => {
                 <a href="http://todolistpaola.surge.sh/" target="_blank">
                   <img
                     id="todo"
-                    src="https://c8.alamy.com/comp/TDM71B/todo-list-on-clipboard-with-hands-illustration-checklist-document-with-task-to-do-on-board-with-paper-clip-flat-man-hands-holding-pen-and-clipboard-with-todo-list-on-green-background-TDM71B.jpg"
+                    // src="https://c8.alamy.com/comp/TDM71B/todo-list-on-clipboard-with-hands-illustration-checklist-document-with-task-to-do-on-board-with-paper-clip-flat-man-hands-holding-pen-and-clipboard-with-todo-list-on-green-background-TDM71B.jpg"
+                    src="https://thumbs.gfycat.com/HeftyDescriptiveChimneyswift-max-1mb.gif"
                   />
                 </a>
                 <div class="centered4">
@@ -125,7 +131,8 @@ const Home = () => {
                 <a href="http://todolistpaola.surge.sh/" target="_blank">
                   <img
                     id="burgerStack"
-                    src="https://i.pinimg.com/originals/6f/e6/3f/6fe63fd7429e2e5bd39b1c37e843ee0a.gif"
+                    // src="https://i.pinimg.com/originals/6f/e6/3f/6fe63fd7429e2e5bd39b1c37e843ee0a.gif"
+                    src="https://media1.giphy.com/media/60rUE5e0SYRPRl3vcS/giphy.gif"
                   />
                 </a>
                 <div class="centered5">

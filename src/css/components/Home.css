@@ -9,6 +9,15 @@
   font-family: 'Bitter', serif;
 }
 
+
+#projects{
+  display:flex;
+  width:100%;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+/* CODE FOR GOT PROJECT */
 #got{
   height:13vw;
   width:11vw;
@@ -21,24 +30,28 @@
   /* opacity:.5; */
   font-size:2vw;
   transform: scale(1.2);
-  }
+  /* background-color: rgb(243, 233, 233); */
+}
 
-#workGame{
+#gotText{
+  font-size:1.6vw;
+}
+
+#gotDiv{
   position: relative;
   text-align: center;
   color: white;
   height:100%;
   width:30%;
-  /* display:flex; */
+}  
+  
 
-  }  
-
+/* CODE FOR ULTIMUTT PROJECT */
 #dog{
   height:13vw;
   width:11vw;
   border-radius: 50%;
   transition: transform .2s;
-  
 }
 
 #dog:hover{
@@ -48,95 +61,52 @@
   transform: scale(1.2);
 }
   
- .centered {
-  position: absolute;
-  /* top: 70%; */
-  left: 10%;
-  transform: translate(-50%, -50%);
-  font-size:1.4vw;
-  /* font-family: 'Alegreya Sans SC', sans-serif; */
-   width:300%;
-  font-family: 'Bitter', serif;
-font-weight: 500;
-} 
-        
+#dogDiv{
+  position: relative;
+  text-align: center;
+  color: teal;
+  height:19vw;
+  width:30%;
+}
 
-  #workGame2{
-    position: relative;
-    text-align: center;
-    color: teal;
-    height:19vw;
-    width:35%;
-    /* display:flex;
-    flex-direction: row; */
-  }
+#dogText{
+  color:white;
+  font-size:1.6vw;
+}
   
-  #workGame3{
-    position: relative;
-    text-align: center;
-    color: white;
-    height:19vw;
-    width:35%;
-    /* display:flex;
-    flex-direction: row; */
-  }
+
+/* CODE FOR CLEANING  PROJECT */
+#cleaningDiv{
+  position: relative;
+  text-align: center;
+  color: white;
+  height:19vw;
+  width:30%;
+}
 
 
-
-  
-  .centered2 {
-    position: absolute;
-    /* top: 52%; */
-    left: 20%;
-    transform: translate(-50%, -50%);
-    font-size:1.4vw;
-    width:300%;
-  }
-
-  .centered2{
-    color:white;
-
-  }
+.cleaningText{
+  color:white;
+  font-size:1.6vw;
+}
 
 
-  .centered3 {
-    position: absolute;
-    /* top: 52%; */
-    left: 20%;
-    transform: translate(-50%, -50%);
-    font-size:1.4vw;
-    font-family: 'Bitter', serif;
-    width:300%;
-    color:white;
-  }
+#clean{
+  height:13vw;
+  width:11vw;
+  border-radius: 50%;
+}
 
 
-  #clean{
-    height:13vw;
-    width:11vw;
-      border-radius: 50%;
-  }
+#clean:hover{
+  border-radius: 50%;
+  /* opacity:.5; */
+  transition: transform .2s;
+  font-size:2vw;
+  transform: scale(1.2);
+}
 
 
-
-  #clean:hover{
-    border-radius: 50%;
-    /* opacity:.5; */
-    transition: transform .2s;
-    font-size:2vw;
-    transform: scale(1.2);
-  }
-
-  #projects{
-    display:flex;
-    width:80%;
-    flex-wrap:wrap;
-    /* flex-flow: column wrap; */
-    justify-content: space-evenly;
-    margin-left:12%;
-    margin-right:10%;
-    /* border:2px solid red; */
-  }
 
 
   #todo{
