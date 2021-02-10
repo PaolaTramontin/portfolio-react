@@ -13,17 +13,6 @@ const Contact = () => {
         <div id="bigContactDiv"> 
             <div class="overlay">
     <div class="contact-card">
-        {/* <div class="contact-card__buttons">
-            <div class="contact-card__buttons__close" title="Close this card">
-                <i class="fa fa-close"></i>
-            </div>
-            <div class="contact-card__buttons__edit" title="Edit this contact">
-                <i class="fa fa-pencil"></i>
-            </div>
-            <div class="contact-card__buttons__remove" title="Delete this contact">
-                <i class="fa fa-user-times"></i>
-            </div>
-        </div> */}
         <div class="contact-card__header">
             <div class="contact-card__header__avt">
                 <img id="avatar" src="https://i.postimg.cc/269qsnHT/avatar.jpg" alt="" />

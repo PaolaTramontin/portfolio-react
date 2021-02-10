@@ -60,26 +60,51 @@ const Home = () => {
 
             <h1 id="myWork"> Portfolio </h1>
             <div id="projects">
-              <div id="gotDiv">
+
+
+
+            <div  className="popover__wrapper" id="findCareerDiv">
+                <a href="http://findcareer.surge.sh/login" target="_blank">
+                  <img
+                    id="burgerStack"
+                    // src="https://i.pinimg.com/originals/6f/e6/3f/6fe63fd7429e2e5bd39b1c37e843ee0a.gif"
+                    src="https://i.gifer.com/3IsP.gif"
+                  />
+                </a>
+                <div className="popover__title" className="findCareerText">
+                  {" "}
+                  <b> .find(career)</b>
+                  <div className="popover__content">
+                    <p className="popover__message">
+                      A job tracker application that allows users to search for jobs based on a specific coding language and location. Custom profile page that provides personalized statistics, goal tracker, to-do list, network contact page and latest tech news. Built with Mongoose and MongoDB for data storage. React, HTML and CSS for functionality and styling.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="popover__wrapper" id="gotDiv">
                 <a
                   href="https://paolatramontin.github.io/project1/"
                   target="_blank"
                 >
                   <img
                     id="got"
-                    // src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/The_Night_King_at_Hardhome.jpg/220px-The_Night_King_at_Hardhome.jpg"
-                    // src="https://i.pinimg.com/originals/38/2a/92/382a92ae2d8c71a35ec352308fd09100.gif"
-                    // src="https://i.pinimg.com/originals/07/dc/7d/07dc7d4400488826316a54c0b2e9b8df.gif"
                     src="https://s3.us-east-2.amazonaws.com/uptrend/posts/1583261498-74840.gif"
                   />
                 </a>
-                <div id="gotText">
+
+                <div className="popover__title" id="gotText">
                   {" "}
-                  <b> Memory Game </b>
+                  <b id="memory"> Memory Game </b>
+                  <div className="popover__content">
+                    <p className="popover__message">
+                    An interactive card matching game using Vanilla JavaScript. Users can select single or 2 player mode. For styling CSS was utilized along with Game of Thrones for inspiration.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div id="dogDiv">
+              <div className="popover__wrapper"  id="dogDiv">
                 <a
                   href="https://ultimuttadoption.herokuapp.com/"
                   target="_blank"
@@ -90,30 +115,37 @@ const Home = () => {
                     src="https://i.gifer.com/XwI6.gif"
                   />
                 </a>
-                <div id="dogText">
+                <div className="popover__title" id="dogText">
                   {" "}
                   <b> The UltiMutt </b>
+                  <div className="popover__content">
+                    <p className="popover__message">
+                    Browse through hundreds of pets that are available for adoption. Search can be custom to users zip code.
+                    Created using Sequelize and Postgres. Authentication has been incorporated with Bcrypt for password hashing and Passport for verification. Please note that the access token expires every 60 minutes, for full user experience, please reach out! 
+                                  </p>
+                  </div>
                 </div>
               </div>
 
-              <div id="cleaningDiv">
-                <a
-                  href="https://RaimundasCleaning.surge.sh"
-                  target="_blank"
-                >
+              <div className="popover__wrapper" id="cleaningDiv">
+                <a href="https://RaimundasCleaning.surge.sh" target="_blank">
                   <img
                     id="clean"
                     // src="https://previews.123rf.com/images/davizro/davizro1604/davizro160400027/55452948-professional-cleaning-equipment-on-white-table-overview-vertical-composition.jpg"
                     src="https://media0.giphy.com/media/2wZvJf3wvGl8PpAzTS/source.gif"
                   />
                 </a>
-                <div class="cleaningText">
+                <div className="popover__title" className="cleaningText">
                   {" "}
                   <b> Cleaning Services </b>
+                  <div className="popover__content">
+                    <p className="popover__message">
+                    Freelance project created to help a small business that was impacted by Covid-19. Although the original template was plain, I enhanced it with CSS. My focus for this project was functionality with modern aesthetic.                 </p>
+                  </div>
                 </div>
               </div>
 
-              <div id="workGame4">
+              <div className="popover__wrapper" id="todoDiv">
                 <a href="http://todolistpaola.surge.sh/" target="_blank">
                   <img
                     id="todo"
@@ -121,13 +153,19 @@ const Home = () => {
                     src="https://thumbs.gfycat.com/HeftyDescriptiveChimneyswift-max-1mb.gif"
                   />
                 </a>
-                <div class="centered4">
+                <div className="popover__title" className="toDoText">
                   {" "}
                   <b> To do List</b>
+                  <div className="popover__content">
+                    <p className="popover__message">
+                    This simple yet intricate to-do list was built using React hooks, which is a new addition to the React 16.8 version. It allows you to initialize state and other React features without having to write a class.
+                                   </p>
+                  </div>
                 </div>
               </div>
 
-              <div id="workGame5">
+
+              {/* <div id="workGame5">
                 <a href="http://todolistpaola.surge.sh/" target="_blank">
                   <img
                     id="burgerStack"
@@ -139,7 +177,7 @@ const Home = () => {
                   {" "}
                   <b> Burger Stack</b>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <br></br>
@@ -159,23 +197,16 @@ const Home = () => {
           </div>
         </main>
       </Parallax>
-    <div id="contactDiv">
-    <h1 id="contactHeader"> Contact </h1>
+      <div id="contactDiv">
+        <h1 id="contactHeader"> Contact </h1>
 
-
-      <Contact />
-
-    </div>
+        <Contact />
+      </div>
     </div>
   );
 };
 
 export default Home;
-
-
-
-
-
 
 
 
