@@ -128,9 +128,9 @@ footer{
 
 
 /* BACKGROUND IMG GRADIENT CODE */
- main{
+ /* main{
     margin-top:-50px;
-}
+} */
 
  *{
     margin:0;
@@ -429,11 +429,13 @@ footer{
 
   
 
-/* mobile friendly code below */
+/* mobile friendly code below IPHONE11 */
 
-  @media screen and (min-width: 100px) and (max-width: 480px) {
+  @media screen and (min-width: 375px) and (max-width: 480px) {
 
-
+ main{
+    margin-top:15vh;
+}
     .name{
       font-weight:100; 
       color:white;
@@ -671,4 +673,265 @@ margin: 0 auto;
 
   }
 
+
+
+
+
+
+
+
+
+/* IPHONE 10 */
+  @media screen and (max-width: 375px) {
+
+    main{
+       margin-top:350px;
+   }
+
+
+   #contactDiv{
+    margin-top:-300px !important;
+    /* border:2px solid red; */
+    /* background-color: red; */
+   }
+
+
+
+       .name{
+         font-weight:100; 
+         color:white;
+         font-size:8vw;
+         letter-spacing: 8px;
+         margin-top:-10px;
+       } 
+   
+   
+   
+   .links{
+     margin-top:-2vw;
+     font-size: 2vh;
+   }
+   
+       .glitch {
+         text-align: center;
+         color: #fff;
+         font-size: 3vw;
+         letter-spacing: 8px;
+         font-family: 'Press Start 2P';
+         font-weight: 400;
+         /* border:2px solid red; */
+         width:80vw;
+         /*Create overlap*/
+         margin: 0;
+         line-height: 0;
+         /*Animation*/
+         margin-left:-25%;
+         animation: glitch1 2.5s infinite;
+       }
+   
+   
+       #projects{
+         margin-top:-1vw;
+       }
+   
+   
+   
+       #myWork{
+         margin-top:-15vw;
+       }
+   
+       #timelineDiv{
+         margin-top:-25vw;
+       }
+   
+       /* .container-box{
+         border:2px solid red;
+       } */
+   
+       #welcomeP{
+         font-size:3vw;
+         /* border:1px solid red; */
+         width:80vw;
+         margin-left:-5vw;
+       }
+   
+       #welcomeLineOne{
+         font-size:4vw;
+         margin-left:-5vw;
+   
+       }
+   
+       .sc-dlfnbm{
+         width:100%!important;
+         /* border:
+          */
+       }
+   
+   .sc-crrsfI{
+     width:40%!important;
+     height:30%;
+     font-size: 2vw;
+   } 
+   
+   
+   
+   
+   /* code to move the timeline to center*/
+   .sc-hKgILt{
+     margin-left:40%;
+   }
+   
+   
+   /* code ball color inside skills part */
+   .bxAjMs.bxAjMs{
+     border:2px solid teal! important;
+   }
+   
+   
+   /* code for the line skills part */
+   .kKSsod::after {
+     position: absolute;
+     left: 50%;
+     width: 2px;
+     height: 100%;
+     background-color:purple !important;
+     color:rgb(4, 87, 55);
+     content: '';
+   }
+   
+   #selfie{
+      border-radius: 50%; 
+     height:18vh;
+     width:26vw;
+     border:2px solid teal;
+   
+   }
+   
+   .sc-hBEYos{
+     padding-bottom: -10vw;
+   }
+   
+   
+   
+   
+   
+   
+   
+   /* CODE FOR CONTACT CARD */
+   
+   .contact-card {
+     width: 80%; 
+   margin: 0 auto;
+   
+   }
+   
+   
+   #contactDiv{
+     /* border:2px solid red; */
+     margin-top:10vh;
+     height:90vh;
+     
+     }
+   
+   
+   
+     #contactHeader{
+       color:white;
+       border-bottom: 2px solid currentColor;
+       background-color:transparent;
+       margin-left:40%;
+       margin-right:40%;
+       font-family: 'Bitter', serif;
+       font-size:3vw;
+       margin-bottom: 1vh;
+     }
+     
+   .contact-card__header {
+     display: flex;
+     flex-flow: row wrap;
+     background-color: #f7f7f7;
+     margin-top: 50px;
+     border-bottom:2px solid teal;
+   }
+   .contact-card__header > div {
+     display: inline-block;
+   }
+   .contact-card__header__avt {
+     width: 80px;
+     height: 30px;
+     /* margin: 20px; */
+     border: #f1f1f1 1px solid;
+     border-radius: 50%;
+     position: relative;
+   }
+   
+   
+   .contact-card__header__avt > img {
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   }
+   
+   
+   
+   .contact-card__header__name {
+    margin-top:-90px;
+    margin-left:30px;
+   }
+   
+   
+   
+   #devdev{
+     margin-left:80px;
+   
+   }
+   
+   
+   
+   #iconLogos{
+     font-size:5vw;
+     margin-left: 10%;
+     }
+     
+   
+     #iconLogos2{
+       font-size:5vw;
+       margin-left: 10%;
+       /* border:2px solid red; */
+       }
+   
+   
+       #iconLogos3{
+         font-size:5.9vw;
+         margin-left:11%;
+         }
+   
+   
+   
+   
+   
+         #iconText{
+           margin-top:.5%;
+         margin-left:20%;
+         position: absolute;
+         
+         }
+         
+         
+         #iconText3{
+           margin-top:.9%;
+         margin-left:20%;
+         position: absolute;
+         
+         }
+   
+   
+   
+   
+     }
+   
 
