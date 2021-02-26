@@ -3,10 +3,20 @@
 }
 
 
-body{
+/* body{
   background-image: linear-gradient(to left, #3c5f6e, #203A43, #244e5e);
   background: -webkit-linear-gradient(to right, #276074, #276074, #000000);  
   background: linear-gradient(to right, #09202c, #276074, #09202c); 
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);
+  background: -webkit-linear-gradient(to left, #051937, #004d7a, #008793, #00bf72);  
+  background: linear-gradient(to right,  #051937, #004d7a, #008793, #00bf72 );   */
+/* } */ 
+
+
+body{
+  background-image: linear-gradient(to left, #3c5f6e, #203A43, #819ba5);
+  background: -webkit-linear-gradient(to right, #728288, #3c4649, #000000);  
+  background: linear-gradient(to right, #367699, #276074, #09202c); 
   /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72);
   background: -webkit-linear-gradient(to left, #051937, #004d7a, #008793, #00bf72);  
   background: linear-gradient(to right,  #051937, #004d7a, #008793, #00bf72 );   */
